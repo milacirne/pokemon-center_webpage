@@ -1,0 +1,232 @@
+/*****************************************************RESET***************************************************************/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*****************************************************HEADER**************************************************************/
+
+header {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 16px 0;
+    background-color: rgb(244, 93, 141);
+    color: #fdffe9;
+    border-top: solid 5px #fdffe9;
+    border-bottom: solid 5px #fdffe9;
+    font-weight: bolder;
+}
+
+header a {
+    text-decoration: none;
+    color: #fdffe9;
+}
+
+.container {
+    max-width: 130vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header .container,
+.container .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .logo {
+    font-family: 'Miltonian Tattoo', cursive;
+    font-size: larger;
+    margin: 0;
+}
+
+header .container img {
+    height: 100px;
+}
+
+header nav,
+header ul,
+header nav li {
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+header nav li a:hover {
+    font-weight: bolder;
+    color: #7470eb;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+/******************************************************BODY***************************************************************/
+
+body,
+input,
+textarea {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section {
+    padding: 50px 0;
+    background-color: #fdffe9;
+    color: rgb(244, 93, 141);
+    border-top: solid 5px rgb(244, 93, 141);
+    border-bottom: solid 5px rgb(244, 93, 141);
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+}
+
+section .container2 {
+    height: 425px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+#about h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#about ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+#about li {
+    display: inline;
+}
+
+#about .employees img {
+    height: 80px;
+    border: solid 4px #7470eb;
+    border-radius: 30%;
+    background-color: rgb(244, 93, 141);
+    margin: 0 15px 0 0;
+}
+
+#about img {
+    height: 425px;
+    margin-left: 30px;
+}
+
+#about .free {
+    color: #7470eb;
+    margin-bottom: 16px;
+}
+
+#about .free:hover{
+    font-weight: bolder;
+}
+
+#about p {
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+
+#contact {
+    background-color: rgb(244, 93, 141);
+    color: #fdffe9;
+}
+
+#contact .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#contact h2 {
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+#contact h3 {
+    margin-left: 20px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: none;
+    background-color: #fdffe9;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    color: rgb(244, 93, 141);
+    border: none;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#contact .social-media img {
+    height: 55px;
+}
+
+#contact .location img {
+    height: 40px;
+    margin-right: 3px;
+    margin-top: -20px;
+}
+
+#contact .social-media {
+    display: block;
+}
+
+#contact .social-media li {
+    display: inline;
+}
+
+#contact .social-media a {
+    text-decoration: none;
+}
+
+#contact .gps {
+    display: flex;
+    align-items: center;
+}
+
+#contact .location li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#contact .location li a {
+    text-decoration: none;
+    color: #fdffe9;
+}
+
+/*****************************************************FOOTER******************************************************************/
+
+footer {
+    background-color: #fdffe9;
+    color: rgb(244, 93, 141);
+    padding: 16px 0;
+}
